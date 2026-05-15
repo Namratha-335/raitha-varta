@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#F5F5F5">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/rice"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RaithaVarta"
+        android:textSize="42sp"
+        android:textStyle="bold"
+        android:textColor="#1B5E20"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Farmer Registration"
+        android:textSize="20sp"
+        android:textColor="#424242"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Farmer Name / ರೈತನ ಹೆಸರು"
+        android:textColor="#4A148C"
+        android:textColorHint="#7E57C2"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"/>
+
+    <EditText
+        android:id="@+id/etPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mobile Number / ಮೊಬೈಲ್ ಸಂಖ್ಯೆ"
+        android:inputType="phone"
+        android:textColor="#4A148C"
+        android:textColorHint="#7E57C2"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/etVillage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Village / ಗ್ರಾಮ"
+        android:textColor="#4A148C"
+        android:textColorHint="#7E57C2"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btnContinue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Continue  / ಮುಂದುವರಿಸಿ"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#2E7D32"
+        android:layout_marginTop="30dp"/>
+
+</LinearLayout>
+

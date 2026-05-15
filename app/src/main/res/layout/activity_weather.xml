@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1F5EC">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🌦 Weather Advisory"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="#1B5E20"
+            android:layout_marginBottom="30dp"/>
+
+        <TextView
+            android:id="@+id/txtWeather"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Weather"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#2E7D32"
+            android:layout_marginBottom="20dp"/>
+
+        <Button
+            android:id="@+id/btnKannada"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🌐 ಕನ್ನಡ"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:backgroundTint="#6A1B9A"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="20dp"/>
+
+        <Button
+            android:id="@+id/btnSunny"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="☀️ Sunny / ಬಿಸಿಲು"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:backgroundTint="#F9A825"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/btnRainy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🌧️ Rainy / ಮಳೆ"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:backgroundTint="#1565C0"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/btnCloudy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="☁️ Cloudy / ಮೋಡ"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:backgroundTint="#616161"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="30dp"/>
+
+        <TextView
+            android:id="@+id/txtTip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Weather-based farming tips will appear here."
+            android:textSize="22sp"
+            android:textColor="#000000"
+            android:padding="20dp"
+            android:background="#DFF0D8"/>
+
+    </LinearLayout>
+
+</ScrollView>

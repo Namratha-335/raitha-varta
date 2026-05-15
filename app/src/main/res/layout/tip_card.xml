@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#E8F5E9">
+
+    <ImageView
+        android:id="@+id/imgCrop"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/rice" />
+
+    <TextView
+        android:id="@+id/txtCropName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🌾 Rice Farming"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#1B5E20"
+        android:paddingTop="10dp" />
+
+    <TextView
+        android:id="@+id/txtCropTip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Use neem oil weekly to protect crops."
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:paddingTop="6dp" />
+
+</LinearLayout>

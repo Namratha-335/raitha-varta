@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1F8E9">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🌾 RaithaVarta"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#1B5E20"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Farmer's Smart Companion"
+            android:textSize="16sp"
+            android:textColor="#4CAF50"
+            android:layout_marginBottom="24dp"/>
+
+        <Button
+            android:id="@+id/btnCropTips"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🌱 Crop Tips"
+            android:backgroundTint="#43A047"
+            android:textColor="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/btnExpert"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📸 Ask Expert"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#43A047"
+            android:textColor="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/btnSuccess"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🏆 Success Stories"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#43A047"
+            android:textColor="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/btnWeather"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="☁️ Weather Update"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#43A047"
+            android:layout_marginTop="20dp"/>
+
+
+        <Button
+            android:id="@+id/btnPdf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📄 PDF Advisory"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#43A047"
+            android:padding="15dp"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

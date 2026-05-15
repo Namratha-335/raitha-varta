@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1F5EC">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="📄 PDF Advisory"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            android:textColor="#1B5E20"
+            android:layout_marginBottom="30dp"/>
+
+        <Button
+            android:id="@+id/btnUploadPdf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📤 Upload Advisory PDF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:backgroundTint="#2E7D32"
+            android:textColor="#FFFFFF"
+            android:padding="16dp"/>
+
+        <TextView
+            android:id="@+id/txtLongTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Long Agricultural Advisory"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginTop="30dp"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/txtLong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rice crops may suffer fungal infection during rainy season due to excessive moisture. Farmers are advised to avoid water stagnation and spray neem oil weekly for crop protection."
+            android:textSize="22sp"
+            android:textColor="#000000"
+            android:background="#FFFFFF"
+            android:padding="20dp"
+            android:layout_marginTop="15dp"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/txtProcessing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🤖 AI Processing PDF..."
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#6A1B9A"
+            android:layout_marginTop="30dp"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/txtKannadaTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🌾 AI Short Kannada Tip"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#1B5E20"
+            android:layout_marginTop="30dp"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/txtKannada"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🌾 ಹೆಚ್ಚು ನೀರು ನಿಲ್ಲದಂತೆ ನೋಡಿಕೊಳ್ಳಿ.\n\n🌾 ವಾರಕ್ಕೊಮ್ಮೆ ನೀಮ್ ಎಣ್ಣೆ ಸಿಂಪಡಿಸಿ.\n\n🌾 ಬೆಳೆ ಆರೋಗ್ಯವನ್ನು ನಿಯಮಿತವಾಗಿ ಪರಿಶೀಲಿಸಿ."
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:background="#DFF0D8"
+            android:padding="20dp"
+            android:layout_marginTop="15dp"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+</ScrollView>
